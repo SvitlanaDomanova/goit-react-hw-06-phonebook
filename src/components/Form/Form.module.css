@@ -1,0 +1,25 @@
+.addContact{
+  width: 100px;
+  display: block;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 0;
+
+}
+  .addContact:hover {
+    background-color: rgba(77, 77, 160, 0.671);
+  }
+
+  .div {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  .label {
+    margin-right: 10px;
+    width: 100%;
+    display: grid;
+  }
+ 

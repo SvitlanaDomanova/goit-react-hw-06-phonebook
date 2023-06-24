@@ -1,25 +1,19 @@
-import ContactsList from './ContactsList';
-import Form from './ContactsForm';
-import Filter from './Filter';
-import css from './Styles.module.css';
+import Form from "./Form/Form";
+import ContactList from "./ContactList/ContactList";
+import Filter from "./Filter/Filter";
+import css from './styleApp.module.css'
 
 const App = () => {
-  return (
-    <div
-      style={{
-        height: '100vh',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 16,
-        color: '#010101',
-      }}
-    >
-      <h1 className={css.title}>Phonebook</h1>
+
+    return <div className="container">
+        <h1 className={css.title}>Phonebook</h1>
       <Form />
       <h2 className={css.title}>Contacts</h2>
-      <Filter />
-      <ContactsList />
+       <Filter  />
+      <ContactList  />
     </div>
-  );
+ 
 };
+
+
 export default App;

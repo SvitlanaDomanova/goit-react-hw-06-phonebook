@@ -1,0 +1,18 @@
+.contactName{
+  font-weight: 500;
+      font-size: 20px;
+}
+.contactNumber{
+  font-weight: 500;
+      font-size: 20px;
+}
+.btn {
+  width: 70px;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 0;
+}
+.btn:hover {
+  background-color: rgba(77, 77, 160, 0.671);
+}
